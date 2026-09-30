@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joabe Dias - Desenvolvedor Full Stack</title>
+  <meta name="description" content="Portfólio de Joabe Dias, Desenvolvedor Full Stack (Front-end & Back-end) de Urandi - Bahia." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="logo">
+        <img src="/img/LOGO PRINCIPAL-PERFIL.png" alt="Joabe Dias" class="logo-avatar" />
+        <span class="logo-text">Joabe Dias</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <section id="inicio" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">Olá, eu sou</p>
+      <h1 class="hero-name">Joabe Dias</h1>
+      <h2 class="hero-role">
+        <span class="typed" id="typed"></span><span class="cursor">|</span>
+      </h2>
+      <p class="hero-description">
+        Desenvolvedor Full Stack em busca de aprendizados, soluções completas do Front-end ao Back-end.
+        buscando transformar ideias em código.
+      </p>
+      <div class="hero-actions">
+        <a href="#projetos" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> Ver Projetos</a>
+        <a href="#contato" class="btn btn-outline"><i class="fa-solid fa-paper-plane"></i> Fale Comigo</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://wa.me/5577991889227" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="mailto:joabewebdesigner@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#contato" aria-label="Localização"><i class="fa-solid fa-location-dot"></i></a>
+      </div>
+    </div>
+    <a href="#sobre" class="scroll-indicator"><i class="fa-solid fa-chevron-down"></i></a>
+  </section>
+
+  <section id="sobre" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Sobre Mim</span>
+        <h2 class="section-title">Quem é Joabe Dias?</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <div class="avatar">
+            <img src="/img/LOGO PRINCIPAL-PERFIL.png" alt="Joabe Dias" class="avatar-foto" />
+          </div>
+          <h3>Joabe Dias</h3>
+          <p class="about-role">Desenvolvedor Full Stack · Front-end & Back-end</p>
+          <ul class="about-info">
+            <li><i class="fa-solid fa-cake-candles"></i> 24 anos</li>
+            <li><i class="fa-solid fa-location-dot"></i> Urandi - Bahia</li>
+            <li><i class="fa-solid fa-calendar"></i> Programando desde 2026</li>
+            <li><i class="fa-solid fa-envelope"></i> joabewebdesigner@gmail.com</li>
+          </ul>
+        </div>
+        <div class="about-text reveal">
+          <p>Tenho <strong>24 anos</strong> e sou natural de <strong>Urandi, na Bahia</strong>. Iniciei minha jornada na programação em <strong>2026</strong>, movido pela vontade de transformar ideias em soluções digitais completas.</p>
+          <p>No <strong>Front-end</strong>, crio interfaces modernas e responsivas com <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. No <strong>Back-end</strong>, desenvolvo APIs, gerencio bancos de dados e construo a lógica que faz tudo funcionar por trás dos bastidores.</p>
+          <p>Acredito no <strong>desenvolvimento completo</strong>: entender o projeto do início ao fim. Vamos construir algo incrível juntos?</p>
+          <div class="stats">
+            <div class="stat"><span class="stat-number" data-target="8">0</span><span class="stat-label">Tecnologias</span></div>
+            <div class="stat"><span class="stat-number" data-target="2026">0</span><span class="stat-label">Início</span></div>
+            <div class="stat"><span class="stat-number" data-target="100">0</span><span class="stat-label">% Dedicação</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Habilidades</span>
+        <h2 class="section-title">Minhas Tecnologias</h2>
+        <p class="section-subtitle-text">Desenvolvimento completo do Front-end ao Back-end</p>
+      </div>
+      <div class="skills-category reveal">
+        <h3 class="skills-category-title"><i class="fa-solid fa-desktop"></i> Front-end</h3>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon html"><i class="fa-brands fa-html5"></i></div>
+          <h3>HTML5</h3><p>Estruturação semântica de páginas web modernas e acessíveis.</p>
+          <div class="progress"><div class="progress-bar" data-progress="70"></div></div>
+          <span class="progress-label">70%</span>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon css"><i class="fa-brands fa-css3-alt"></i></div>
+          <h3>CSS3</h3><p>Estilização avançada com Flexbox, Grid e animações fluidas.</p>
+          <div class="progress"><div class="progress-bar" data-progress="60"></div></div>
+          <span class="progress-label">60%</span>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon js"><i class="fa-brands fa-js"></i></div>
+          <h3>JavaScript</h3><p>Interatividade, manipulação do DOM e lógica de programação.</p>
+          <div class="progress"><div class="progress-bar" data-progress="15"></div></div>
+          <span class="progress-label">15%</span>
+        </div>
+      </div>
+      <div class="skills-category reveal" style="margin-top:48px">
+        <h3 class="skills-category-title"><i class="fa-solid fa-server"></i> Back-end</h3>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon node"><i class="fa-brands fa-node-js"></i></div>
+          <h3>Node.js</h3><p>Criação de servidores, APIs REST e automações com JavaScript no back-end.</p>
+          <div class="progress"><div class="progress-bar" data-progress="5"></div></div>
+          <span class="progress-label">5%</span>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon python"><i class="fa-brands fa-python"></i></div>
+          <h3>Python</h3><p>Lógica de back-end, scripts de automação e processamento de dados.</p>
+          <div class="progress"><div class="progress-bar" data-progress="10"></div></div>
+          <span class="progress-label">10%</span>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon db"><i class="fa-solid fa-database"></i></div>
+          <h3>Banco de Dados</h3><p>Modelagem e consultas com SQL (MySQL/PostgreSQL) e bancos NoSQL.</p>
+          <div class="progress"><div class="progress-bar" data-progress="10"></div></div>
+          <span class="progress-label">10%</span>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon api"><i class="fa-solid fa-plug"></i></div>
+          <h3>APIs REST</h3><p>Desenvolvimento e consumo de APIs RESTful para integração entre sistemas.</p>
+          <div class="progress"><div class="progress-bar" data-progress="1"></div></div>
+          <span class="progress-label">1%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Portfólio</span>
+        <h2 class="section-title">Meus Projetos</h2>
+        <p class="section-subtitle">Projetos desenvolvidos para clientes reais</p>
+      </div>
+      <div class="projetos-grid">
+        <div class="projeto-card reveal">
+          <div class="projeto-thumb projeto-thumb-img">
+            <img src="img/ER-CABEÇALHO III.png" alt="Eliabe Rocha Engenharia" />
+          </div>
+          <div class="projeto-body">
+            <h3>Eliabe Rocha Engenharia</h3>
+            <p>Seu imóvel irregular tem solução e ela começa aqui. Site desenvolvido para transformar burocracia em tranquilidade.</p>
+            <div class="projeto-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+
+
+            </div>
+            <a href="https://eliaberochaeng.com" target="_blank" rel="noopener" class="btn btn-outline projeto-btn">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver Projeto
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Contato</span>
+        <h2 class="section-title">Vamos Conversar?</h2>
+        <p class="section-subtitle">Tem um projeto em mente? Me chame!</p>
+      </div>
+      <div class="contato-grid">
+        <div class="contato-info reveal">
+          <a href="https://wa.me/5577991889227" target="_blank" rel="noopener" class="contato-item">
+            <div class="contato-icon whatsapp"><i class="fa-brands fa-whatsapp"></i></div>
+            <div><span class="contato-label">WhatsApp</span><span class="contato-value">(77) 99188-9227</span></div>
+          </a>
+          <a href="mailto:joabewebdesigner@gmail.com" class="contato-item">
+            <div class="contato-icon email"><i class="fa-solid fa-envelope"></i></div>
+            <div><span class="contato-label">Email</span><span class="contato-value">joabewebdesigner@gmail.com</span></div>
+          </a>
+          <div class="contato-item">
+            <div class="contato-icon location"><i class="fa-solid fa-location-dot"></i></div>
+            <div><span class="contato-label">Localização</span><span class="contato-value">Urandi - Bahia, Brasil</span></div>
+          </div>
+        </div>
+        <form id="form-contato" class="reveal">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte sobre seu projeto..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            <i class="fa-solid fa-paper-plane"></i> Enviar via WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <a href="#inicio" class="footer-logo">
+          <img src="/img/LOGO PRINCIPAL.png" alt="Joabe Dias" class="footer-avatar" />
+          <span>Joabe Dias</span>
+        </a>
+        <p class="footer-bio">Desenvolvedor Full Stack em treinamento e pronto para construir soluções digitais completas, do Front-end ao Back-end.</p>
+        <div class="footer-socials">
+          <a href="https://wa.me/5577991889227" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="mailto:joabewebdesigner@gmail.com" aria-label="E-mail"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-col-title">Navegação</h4>
+        <ul class="footer-links">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-col-title">Contato</h4>
+        <ul class="footer-links footer-contact">
+          <li><i class="fa-solid fa-phone"></i> (77) 99188-9227</li>
+          <li><i class="fa-solid fa-envelope"></i> joabewebdesigner@gmail.com</li>
+          <li><i class="fa-solid fa-location-dot"></i> Urandi, Bahia, Brasil</li>
+          <li><i class="fa-solid fa-clock"></i> Disponível para projetos</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; <span id="footer-year">2026</span> <strong>Joabe Dias</strong>. Todos os direitos reservados.</p>
+        <p class="footer-stack">Construído com <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i></p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast"></div>
+  <script src="main.js"></script>
+</body>
+</html>
